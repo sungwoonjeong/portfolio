@@ -45,12 +45,12 @@ ul > li::before {
 
 .nav-open{
   display: block;
-  max-width: 50px;
+  max-width: 35px;
 }
 
 .nav-close {
   display: none;
-  max-width: 50px;
+  max-width: 35px;
 }
 
  .nav-check:checked ~ .nav-label .nav-open {
