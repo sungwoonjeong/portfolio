@@ -44,12 +44,12 @@ ul > li::before {
 
 .nav-open{
   display: block;
-  max-width: 350px;
+  max-width: 50px;
 }
 
 .nav-close {
   display: none;
-  max-width: 350px;
+  max-width: 50px;
 }
 
  .nav-check:checked ~ .nav-label .nav-open {
