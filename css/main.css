@@ -119,11 +119,11 @@ section:target .info{
 }
 
 .black {
-  color: black;
+  color: white;
 }
 
 .parallax {
-    background-image: url("../images/placeholder-3by2.svg");
+    background-image: url("../images/background.jpg");
 
     min-height: 300px;
 
