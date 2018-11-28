@@ -2,15 +2,19 @@ html {
   font-family: 'Oswald', sans-serif;
 }
 
+header nav {
+  position: fixed;
+  z-index: 1000;
+}
+
 .nav {
   display: none;
   text-align: center;
   padding: 20px 50px;
-  z-index: 100;
+  z-index: 50;
   background-color: rgba(0,0,0,0.5);
   width: 100%;
   height: 100%;
-  border 0;
 }
 
 header li {
@@ -39,7 +43,7 @@ ul > li::before {
   display: inline-block;
   max-width: 100%;
   z-index: 1000;
-  top: 5%
+  top: 5%;
 }
 
 .nav-open{
@@ -52,11 +56,11 @@ ul > li::before {
   max-width: 40px;
 }
 
- .nav-check:checked ~ .nav-label .nav-open {
+.nav-check:checked ~ .nav-label .nav-open {
   display: none;
 }
 
- .nav-check:checked ~ .nav-label .nav-close {
+.nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
 
@@ -64,12 +68,10 @@ header a {
   color: white;
   display: inline-block;
   text-decoration: none;
-  width: 100%;
 }
 
 header .btn {
-  border: 0;
-    border: none;
+  border: none;
   transition: all 200ms ease-out
 }
 
@@ -82,6 +84,8 @@ header .btn:hover {
 
 .doc {
   margin: auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all .5s ease;
 }
 
 section .info{
@@ -91,6 +95,7 @@ section .info{
   margin: 0;
   background: pink;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  transition: all 200ms ease-out
 }
 
 section a {
@@ -105,6 +110,7 @@ section a {
 
 .active, .collapse:hover {
   background-color: #555;
+  transition: all 200ms ease-out
 }
 
 section:target .info{
@@ -126,15 +132,11 @@ section:target .info{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: all 0.2s ease;
-  transition: all .2s ease;
 }
 
 .parallax-content {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 50%;
-  -webkit-transition: all 0.2s ease;
-  transition: all .2s ease;
 }
 
 #work3:checked {
