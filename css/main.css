@@ -83,6 +83,12 @@ header .btn:hover {
   transition: all .2s linear;
 }
 
+.about-img {
+  max-width: 20rem;
+  margin: auto;
+  display: block;
+}
+
 .work {
   box-shadow: 10px 20px 40px rgba(0, 0, 0, .2);
 }
@@ -128,7 +134,7 @@ section:target .info{
 }
 
 .parallax {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background03.jpg");
 
   min-height: 300px;
 
@@ -139,8 +145,8 @@ section:target .info{
   background-size: cover;
 }
 
-.parallax-motion {
-  background-image: url("../images/background03.jpg");
+.parallax-branding {
+  background-image: url("../images/background02.jpg");
 
   min-height: 300px;
 
