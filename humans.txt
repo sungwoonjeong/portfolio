@@ -23,6 +23,7 @@ Github
 After effect
 Photoshop
 Illustrator
+ImageOptim
 
 ### Hosting
 
