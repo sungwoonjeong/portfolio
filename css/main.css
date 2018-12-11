@@ -140,7 +140,7 @@ section:target .info{
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-attachment: fixed;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -164,7 +164,7 @@ section:target .info{
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -190,7 +190,7 @@ section a {
   border-bottom: none;
 }
 
-h2 {
+h3 {
   -webkit-transform: translateZ(-0.5px) scale(.5);
   transform: translateZ(-0.5px) scale(.5);
 
@@ -199,16 +199,12 @@ h2 {
   color: #fff;
 }
 
-#pinterest {
-  fill: indigo;
+.icon {
+  color: #ff9500;
 }
 
 footer {
     background-color: #F7ADCB;
-}
-
-.sns nav ul {
-  text-align: right;
 }
 
 .sns nav li {
@@ -241,4 +237,34 @@ footer nav a:hover {
 .focus::selection {
   -webkit-filter: opacity(100%);
   filter: opacity(100%);
+}
+
+@media only screen and (min-width: 16px) {
+
+  .content-fill {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 16px) {
+
+  .content-fill {
+    text-align: center;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content-fill {
+    text-align: left;
+  }
+
+  nav ul {
+    text-align: right;
+  }
 }
