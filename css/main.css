@@ -139,17 +139,17 @@ section:target .info{
 }
 
 .parallax-projection {
-  background-image: url("../images/background03.jpg");
+  background-image: url("../images/parellax-projection-mapping.jpg");
   background-position: left;
 }
 
 .parallax-branding {
-  background-image: url("../images/background02.jpg");
+  background-image: url("../images/application-logo.jpg");
   background-position: center;
 }
 
 .parallax-poster {
-  background-image: url("../images/background04.jpg");
+  background-image: url("../images/parellax-theatre.jpg");
   background-position: right;
 
 }
