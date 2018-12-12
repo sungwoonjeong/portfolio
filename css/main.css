@@ -125,7 +125,7 @@ section .info a {
 }
 
 section:target .info{
-  max-height: 150em;
+  max-height: 175em;
   padding: 10px;
 }
 
@@ -146,7 +146,6 @@ section:target .info{
 .parallax-branding {
   background-image: url("../images/background02.jpg");
   background-position: center;
-
 }
 
 .parallax-poster {
@@ -178,6 +177,12 @@ h3 {
   width: 100%;
   text-align: center;
   color: #fff;
+}
+
+.img-half {
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 footer {
