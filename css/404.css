@@ -1,4 +1,15 @@
 .four-img {
   display: block;
   margin: auto;
+  min-width: 21em;
+}
+
+.four-nav a {
+  color: #F7ADCB;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.four-nav a:hover {
+  color: black;
 }
