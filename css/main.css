@@ -203,6 +203,10 @@ footer nav a:hover {
   color: #fff;
 }
 
+.four h2 {
+  color: black;
+}
+
 .four-img {
   display: block;
   margin: auto;
