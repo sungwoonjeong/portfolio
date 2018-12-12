@@ -125,7 +125,7 @@ section .info a {
 }
 
 section:target .info{
-  max-height: 180em;
+  max-height: 175em;
   padding: 10px;
 }
 
