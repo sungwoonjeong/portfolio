@@ -203,6 +203,27 @@ footer nav a:hover {
   color: #fff;
 }
 
+.four h2 {
+  color: black;
+}
+
+.four-img {
+  display: block;
+  margin: auto;
+  min-width: 21em;
+}
+
+.four-nav a {
+  color: #F7ADCB;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.four-nav a:hover {
+  color: black;
+}
+
+
 .focus {
   -webkit-filter: opacity(70%);
   	filter: opacity(70%);
